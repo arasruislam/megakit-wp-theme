@@ -1,0 +1,72 @@
+/*
+Theme Name: MegaKit
+Theme URI: https://arasru.com/themes/megakit/
+Author: Muhammad Ashraful Islam
+Author URI: https://arasru.com/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: megakit
+*/
+
+#navbar li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .5px;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    transition: all .25s ease;
+}
+
+#navbar li a:hover,
+#navbar li a:focus {
+    color: #f75757;
+}
+li.wp-block-pages-list__item {
+    list-style: none;
+}
+
+.error_page_megakit {margin: 50px 0px;padding: 10px;box-sizing: border-box;}
+
+.error_page_megakit h2 {
+    font-size: 150px;
+    text-align: center;
+    color: deepskyblue;
+}
+
+.error_page_megakit h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.error_page_megakit button {
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    /* background: red; */
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    /* align-items: center; */
+    padding: 5px 15px;
+}
+
+.error_page_megakit button a {
+    /* color: red; */
+    text-align: center;
+}
+h2.sinle_page_title {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}

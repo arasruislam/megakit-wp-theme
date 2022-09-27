@@ -1,0 +1,233 @@
+{
+    "key": "group_63066034bb37d",
+    "title": "Social Account",
+    "fields": [
+        {
+            "key": "field_630660ef465d4",
+            "label": "Header Footer",
+            "name": "header_footer",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6306610b465d5",
+                    "label": "Social Url",
+                    "name": "social_url",
+                    "type": "url",
+                    "instructions": "Provide Your Social Account Address with https:\/\/",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6306660818536",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "Pick your social account",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "ti-facebook": "Facebook",
+                        "ti-twitter": "Twitter",
+                        "ti-github": "GitHub",
+                        "ti-linkedin": "LinkedIn"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6331c6ff21f06",
+            "label": "Single Post Social",
+            "name": "single_post_social",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6331c6ff21f07",
+                    "label": "Social Url",
+                    "name": "social_url",
+                    "type": "url",
+                    "instructions": "Provide Your Social Account Address with https:\/\/",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6331c6ff21f08",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "Pick your social account",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "ti-facebook": "Facebook",
+                        "ti-twitter": "Twitter",
+                        "ti-github": "GitHub",
+                        "ti-linkedin": "LinkedIn"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_630662b0465d7",
+            "label": "Post Social",
+            "name": "post_social",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_630662c9465d8",
+                    "label": "Url",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "Provide your social url link with https:\/\/",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630665a8a395f",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "Pick Your Social Icon",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "fab fa-facebook-f": "Facebook",
+                        "fab fa-twitter": "Twitter",
+                        "fab fa-instagram": "Instagram",
+                        "fab fa-linkedin-in": "LinkedIn",
+                        "fab fa-pinterest-p": "Pinterest",
+                        "fab fa-google-plus": "Google+",
+                        "fab fa-behance": "Behance"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-socials"
+            }
+        ],
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ],
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-contact"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1664206612
+}

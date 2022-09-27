@@ -1,0 +1,195 @@
+{
+    "key": "group_63219976b0ce9",
+    "title": "Footer Part",
+    "fields": [
+        {
+            "key": "field_63219a6c308c0",
+            "label": "Footer Logo",
+            "name": "footer_logo",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_63219a7a308c1",
+                    "label": "Logo",
+                    "name": "logo",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63219a9a308c2",
+                    "label": "Support Mail",
+                    "name": "support_mail",
+                    "type": "email",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Support@megakit.com",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63219ace308c4",
+                    "label": "Cell Number",
+                    "name": "cell_number",
+                    "type": "text",
+                    "instructions": "Provide Your Cell Number",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "+23-456-6588",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6321aa51a2ef3",
+            "label": "Footer Subscribe",
+            "name": "footer_subscribe",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6321ab1da2ef4",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Subscribe Us",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6321ab34a2ef5",
+                    "label": "Text",
+                    "name": "text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Subscribe to get latest news article and resources",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 2,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6321ab4ba2ef6",
+                    "label": "Btn text",
+                    "name": "btn_text",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Subscribe",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6321ac755312a",
+            "label": "Copyright",
+            "name": "copyright",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<div class=\"col-lg-4 col-md-12 col-sm-12\">\r\n    <div class=\"copyright\">\r\n        &copy; Copyright Reserved to <span class=\"text-color\">Megakit.<\/span> by <a href=\"https:\/\/themefisher.com\/\" target=\"_blank\">Themefisher<\/a>\r\n    <\/div>\r\n<\/div>\r\n\r\n<div class=\"col-lg-4 col-md-12 col-sm-12\">\r\n    <div class=\"copyright\">\r\n        Distributed by <a href=\"https:\/\/themewagon.com\/\" target=\"_blank\">Themewagon<\/a>\r\n    <\/div>\r\n<\/div>\r\n<div class=\"col-lg-4 col-md-12 col-sm-12 text-left text-lg-left\">\r\n    <ul class=\"list-inline footer-socials\">\r\n        <li class=\"list-inline-item\"><a href=\"https:\/\/www.facebook.com\/themefisher\"><i class=\"ti-facebook mr-2\"><\/i>Facebook<\/a><\/li>\r\n        <li class=\"list-inline-item\"><a href=\"https:\/\/twitter.com\/themefisher\"><i class=\"ti-twitter mr-2\"><\/i>Twitter<\/a><\/li>\r\n        <li class=\"list-inline-item\"><a href=\"https:\/\/www.pinterest.com\/themefisher\/\"><i class=\"ti-linkedin mr-2 \"><\/i>Linkedin<\/a><\/li>\r\n    <\/ul>\r\n<\/div>",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1663989099
+}

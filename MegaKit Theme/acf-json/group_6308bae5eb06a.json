@@ -1,0 +1,53 @@
+{
+    "key": "group_6308bae5eb06a",
+    "title": "Service Icons",
+    "fields": [
+        {
+            "key": "field_6308baf9ac151",
+            "label": "Service Icon",
+            "name": "service_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ti-desktop": "Desktop",
+                "ti-layers": "Layer",
+                "ti-bar-chart": "Chart",
+                "ti-vector": "Vector",
+                "ti-android": "Android",
+                "ti-pencil-alt": "Pencil"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "services"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1661888662
+}
